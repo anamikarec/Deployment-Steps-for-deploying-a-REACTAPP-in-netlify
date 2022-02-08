@@ -18,7 +18,7 @@ cd <app_name>
 ```
 - 4. Try to run ```npm run buid``` command again.
 - 5. then create one file namely ```_redirects``` inside the buid folder.
-- 5. 1. Inside ```_redirects``` file, write the following
+- 5. 1. Inside ```_redirects``` file, write the following to prevent the site from breaking at any route like home/users, refresh will not break it.
 ```js
     /* /index.html 200
 ```
