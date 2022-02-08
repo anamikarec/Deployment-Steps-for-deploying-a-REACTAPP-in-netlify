@@ -8,7 +8,7 @@ create-react-app <app_name>
 ```js
 cd <app_name>
 ```
-- 2. First Step to deploy:
+- 2. Then run the following command to create the build folder.
 ```js
     npm run build
 ```
@@ -18,6 +18,10 @@ cd <app_name>
 ```
 - 4. Try to run ```npm run buid``` command again.
 - 5. then create one file namely ```_redirects``` inside the buid folder.
+- 5. 1. Inside ```_redirects``` file, write the following
+```js
+    /* /index.html 200
+```
 - 6. download netlify cli
 ```js
     npm i netlify-cli -g
