@@ -22,6 +22,7 @@ cd <app_name>
 ```js
     /* /index.html 200
 ```
+## NOTE:~  ***```NOW WE CAN DIRECT DEPLOY BY DRAG AND DROP THE BUILD FOLDER. NO NEED TO DO BELOW STEPS```***
 - 6. download netlify cli
 ```js
     npm i netlify-cli -g
